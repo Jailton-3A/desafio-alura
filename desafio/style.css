@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #D9D9D9;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-family:  "Lekton", sans-serif;
+    font-size: 10px;
+    align-items: center;
+    color: #010101;
+    padding: 0.5% 2% 0.5% 2%;
+    background-color: #D9D9D9;
+}
+
+.cabecalho__div {
+    display: flex;
+    gap: 17px;
+}
+
+.cabecalho__segundo {
+    display: flex;
+    gap: 5px;
+}
+
+.centro {
+    flex: 1;
+    background-image: url(/imagens/bgw2.svg);
+    background-size: 100%;
+
+}
